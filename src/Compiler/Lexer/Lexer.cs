@@ -168,7 +168,7 @@ namespace XPEL.Compiler.Lexer
                     case "of":
                         return new Token(TokenType.OF, "of");
                     case "bin":
-                        return new Token(TokenType.BIN, "do");
+                        return new Token(TokenType.BIN, "bin");
                     case "for":
                         return new Token(TokenType.FOR, "for");
                     case "int":
@@ -204,7 +204,7 @@ namespace XPEL.Compiler.Lexer
                     case "void":
                         return new Token(TokenType.VOID, "void");
                     case "array":
-                        return new Token(TokenType.ARRAY, "null");
+                        return new Token(TokenType.ARRAY, "array");
                     case "break":
                         return new Token(TokenType.BREAK, "break");
                     case "class":
